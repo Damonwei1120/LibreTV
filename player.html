@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LibreTV 播放器</title>
+    <title>DweiTV 播放器</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="js/password.js"></script>
     <link rel="stylesheet" href="css/styles.css">
@@ -356,7 +356,7 @@
             }
 
             // 设置页面标题
-            document.title = currentVideoTitle + ' - LibreTV播放器';
+            document.title = currentVideoTitle + ' - DweiTV播放器';
             document.getElementById('videoTitle').textContent = currentVideoTitle;
             
             // 初始化播放器
@@ -534,13 +534,13 @@
                 chromecast: true,                // 启用Chromecast投屏功能
                 contextmenu: [                   // 自定义右键菜单
                     {
-                        text: '关于 LibreTV',
+                        text: '关于 DweiTV',
                         link: 'https://github.com/bestzwei/LibreTV'
                     },
                     {
                         text: '问题反馈',
                         click: (player) => {
-                            window.open('https://github.com/bestzwei/LibreTV/issues', '_blank');
+                            window.open('https://dweitv.pages.dev', '_blank');
                         }
                     }
                 ],
