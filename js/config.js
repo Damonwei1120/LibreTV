@@ -34,7 +34,7 @@ const API_SITES = {
         name: '天涯资源',
     },
     tpzy: {
-        api: 'https://taopianapi.com',
+        api: 'https://www.taopianzy.com',
         name: '淘片资源',
     },
     heimuer: {
