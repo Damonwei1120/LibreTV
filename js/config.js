@@ -21,6 +21,22 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
+    bfzy: {
+        api: 'https://bfzyapi.com',
+        name: '暴风资源',
+    },
+    zuid: {
+        api: 'https://api.zuidapi.com',
+        name: '最大资源'
+    },
+    tyyszy: {
+        api: 'https://tyyszy.com',
+        name: '天涯资源',
+    },
+    tyyszy: {
+        api: 'https://taopianapi.com',
+        name: '淘片资源',
+    },
     heimuer: {
         api: 'https://json.heimuer.xyz',
         name: '黑木耳',
@@ -30,10 +46,6 @@ const API_SITES = {
         api: 'http://ffzy5.tv',
         name: '非凡影视',
         detail: 'http://ffzy5.tv'
-    },
-    tyyszy: {
-        api: 'https://tyyszy.com',
-        name: '天涯资源',
     },
     ckzy: {
         api: 'https://www.ckzy1.com',
@@ -64,10 +76,6 @@ const API_SITES = {
     dbzy: {
         api: 'https://dbzy.com',
         name: '豆瓣资源',
-    },
-    bfzy: {
-        api: 'https://bfzyapi.com',
-        name: '暴风资源',
     },
     mozhua: {
         api: 'https://mozhuazy.com',
@@ -111,10 +119,6 @@ const API_SITES = {
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip'
-    },
-    zuid: {
-        api: 'https://api.zuidapi.com',
-        name: '最大资源'
     },
     yutu: {
         api: 'https://yutuzy10.com',
