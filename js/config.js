@@ -33,7 +33,7 @@ const API_SITES = {
         api: 'https://tyyszy.com',
         name: '天涯资源',
     },
-    tyyszy: {
+    tpzy: {
         api: 'https://taopianapi.com',
         name: '淘片资源',
     },
