@@ -547,7 +547,7 @@
                 video: {
                     url: videoUrl,
                     type: 'hls',
-                    pic: 'https://gitea.com/Dwei/DW/raw/branch/main/img/Loading.gif', // 设置视频封面图
+                    pic: 'https://gitea.com/Dwei/DW/raw/branch/main/img/logo.png', // 设置视频封面图
                     customType: {
                         hls: function(video, player) {
                             // 清理之前的HLS实例
@@ -725,7 +725,7 @@
                     console.log('发生错误，但视频已在播放中，忽略');
                     return;
                 }
-                showError('视频加载中，请耐心等待或检查切换源及网络连接');
+                showError('视频播放失败，请检查视频源或网络连接');
             });
             
             // 添加seeking和seeked事件监听器，以检测用户是否在拖动进度条
