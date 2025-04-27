@@ -36,7 +36,8 @@ const API_SITES = {
     heimuer: {
         api: 'https://mycj-json.heimuer.xyz',
         name: '黑木耳',
-        detail: 'https://heimuer.tv'
+        detail: 'https://heimuer.tv',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
     },
     zy360: {
         api: 'https://360zy.com',
