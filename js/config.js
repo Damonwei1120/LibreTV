@@ -23,29 +23,29 @@ const SITE_CONFIG = {
 const API_SITES = {
     bfzy: {
         api: 'https://bfzyapi.com',
-        name: '暴风资源',
+        name: '暴风(微广勿信)',
     },
     zuid: {
         api: 'https://api.zuidapi.com',
-        name: '最大资源'
+        name: '最大(有广勿信)'
     },
     tyyszy: {
         api: 'https://tyyszy.com',
-        name: '天涯资源',
+        name: '天涯(微广勿信)',
     },
     heimuer: {
         api: 'https://mycj-json.heimuer.xyz',
-        name: '黑木耳',
+        name: '黑凤梨(有广勿信)',
         detail: 'https://heimuer.tv',
         filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
     },
     zy360: {
         api: 'https://360zy.com',
-        name: '360资源',
+        name: '360(有广勿信)',
     },
     dbzy: {
         api: 'https://tyyszy.com',
-        name: '豆瓣资源',
+        name: '豆瓣(微广勿信)',
     },
     jkun: {
         api: 'https://jkunzyapi.com',
