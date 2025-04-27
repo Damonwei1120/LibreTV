@@ -2,7 +2,7 @@
 
 // 豆瓣标签列表
 let movieTags = ['热门', '最新', '经典', '豆瓣高分', '冷门佳片', '华语', '欧美', '韩国', '日本', '动作', '喜剧', '爱情', '科幻', '悬疑', '恐怖', '治愈'];
-let tvTags = ['热门', '国产剧', '港剧', '韩剧', '英剧', '美剧', '日剧', '动画', '综艺', '纪录片']
+let tvTags = ['热门', '国产剧', '港剧', '韩剧', '英剧', '美剧', '日剧', '动画', '综艺', '纪录片', '国产动漫']
 let doubanMovieTvCurrentSwitch = 'movie';
 let doubanCurrentTag = '热门';
 let doubanPageStart = 0;
@@ -13,7 +13,7 @@ function initDouban() {
     // 设置豆瓣开关的初始状态
     const doubanToggle = document.getElementById('doubanToggle');
     if (doubanToggle) {
-        const isEnabled = localStorage.getItem('doubanEnabled') === 'true';
+        const isEnabled = localStorage.getItem('doubanEnabled') === 'false';
         doubanToggle.checked = isEnabled;
         
         // 设置开关外观
@@ -59,7 +59,7 @@ function initDouban() {
     setupDoubanRefreshBtn();
     
     // 初始加载热门内容
-    if (localStorage.getItem('doubanEnabled') === 'true') {
+    if (localStorage.getItem('doubanEnabled') === 'false') {
         renderRecommend(doubanCurrentTag, doubanPageSize, doubanPageStart);
     }
 }
@@ -69,7 +69,7 @@ function updateDoubanVisibility() {
     const doubanArea = document.getElementById('doubanArea');
     if (!doubanArea) return;
     
-    const isEnabled = localStorage.getItem('doubanEnabled') === 'true';
+    const isEnabled = localStorage.getItem('doubanEnabled') === 'false';
     const isSearching = document.getElementById('resultsArea') && 
         !document.getElementById('resultsArea').classList.contains('hidden');
     
@@ -195,7 +195,7 @@ function renderDoubanMovieTvSwitch() {
             setupDoubanRefreshBtn();
             
             // 初始加载热门内容
-            if (localStorage.getItem('doubanEnabled') === 'true') {
+            if (localStorage.getItem('doubanEnabled') === 'false') {
                 renderRecommend(doubanCurrentTag, doubanPageSize, doubanPageStart);
             }
         }
@@ -221,7 +221,7 @@ function renderDoubanMovieTvSwitch() {
             setupDoubanRefreshBtn();
             
             // 初始加载热门内容
-            if (localStorage.getItem('doubanEnabled') === 'true') {
+            if (localStorage.getItem('doubanEnabled') === 'false') {
                 renderRecommend(doubanCurrentTag, doubanPageSize, doubanPageStart);
             }
         }
