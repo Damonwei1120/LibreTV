@@ -32,7 +32,8 @@ const API_SITES = {
     },
     tyyszy: {
         api: 'https://tyyszy.com',
-        name: '天涯(微广勿信)'
+        name: '天涯(微广勿信)',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
     },
     heimuer: {
         api: 'https://mycj-json.heimuer.xyz',
@@ -46,7 +47,8 @@ const API_SITES = {
     },
     dbzy: {
         api: 'https://tyyszy.com',
-        name: '豆瓣(微广勿信)'
+        name: '豆瓣(微广勿信)',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
     },
     jkun: {
         api: 'https://jkunzyapi.com',
