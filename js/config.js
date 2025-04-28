@@ -32,10 +32,20 @@ const API_SITES = {
         detail: 'https://heimuer.tv',
         filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
     },
-    zy360: {
-        api: 'https://360zy.com',
-        name: '360(有广勿信)',
-        filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
+    ffzy: {
+        api: 'http://ffzy5.tv',
+        name: '非凡',
+        detail: 'http://ffzy5.tv',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY'
+    },
+    tyyszy: {
+        api: 'https://tyyszy.com',
+        name: '天涯资源',
+    },
+    ckzy: {
+        api: 'https://www.ckzy1.com',
+        name: 'CK资源',
+        adult: true
     },
     dbzy: {
         api: 'https://tyyszy.com',
