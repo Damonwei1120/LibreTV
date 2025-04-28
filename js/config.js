@@ -24,6 +24,7 @@ const API_SITES = {
     bfzy: {
         api: 'https://bfzyapi.com',
         name: '暴风(微广勿信)',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY'
     },
     zuid: {
         api: 'https://api.zuidapi.com',
@@ -31,21 +32,21 @@ const API_SITES = {
     },
     tyyszy: {
         api: 'https://tyyszy.com',
-        name: '天涯(微广勿信)',
+        name: '天涯(微广勿信)'
     },
     heimuer: {
         api: 'https://mycj-json.heimuer.xyz',
-        name: '黑凤梨(有广勿信)',
+        name: '黑梨(有广勿信)',
         detail: 'https://heimuer.tv',
         filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
     },
     zy360: {
         api: 'https://360zy.com',
-        name: '360(有广勿信)',
+        name: '360(有广勿信)'
     },
     dbzy: {
         api: 'https://tyyszy.com',
-        name: '豆瓣(微广勿信)',
+        name: '豆瓣(微广勿信)'
     },
     jkun: {
         api: 'https://jkunzyapi.com',
