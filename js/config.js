@@ -31,9 +31,71 @@ const API_SITES = {
         name: '豆瓣',
         filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY'
     },
+    heimuer: {
+        api: 'https://json.heimuer.xyz',
+        name: '黑梨',
+        detail: 'https://heimuer.tv',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
+    },
+    ffzy: {
+        api: 'http://ffzy5.tv',
+        name: '非凡',
+        detail: 'http://ffzy5.tv',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY'
+    },
+    tyyszy: {
+        api: 'https://tyyszy.com',
+        name: '天涯',
+    },
+    ckzy: {
+        api: 'https://www.ckzy1.com',
+        name: 'CK资源',
+        adult: true
+    },
+    zy360: {
+        api: 'https://360zy.com',
+        name: '360资源',
+    },
+    wolong: {
+        api: 'https://wolongzyw.com',
+        name: '卧龙',
+    },
+    cjhw: {
+        api: 'https://cjhwba.com',
+        name: '新华为',
+    },
+    hwba: {
+        api: 'https://cjwba.com',
+        name: '华为吧',
+    },
+    jisu: {
+        api: 'https://jszyapi.com',
+        name: 'JS',
+        detail: 'https://jszyapi.com'
+    },
+    dbzy1: {
+        api: 'https://dbzy.com',
+        name: 'DB',
+    },
+    mozhua: {
+        api: 'https://mozhuazy.com',
+        name: '魔爪',
+    },
+    mdzy: {
+        api: 'https://www.mdzyapi.com',
+        name: '魔都',
+    },
+    ruyi: {
+        api: 'https://cj.rycjapi.com',
+        name: '如意',
+    },
+    zuid: {
+        api: 'https://api.zuidapi.com',
+        name: '最大'
+    },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
-        name: '百万资源',
+        name: '百万',
         adult: true
     }
     // 您可以按需添加更多源
