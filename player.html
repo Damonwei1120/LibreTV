@@ -153,7 +153,29 @@
         .player-container:fullscreen #player {
             width: 100%; height: 100%;
         }
+        .toast-hidden {
+             position: fixed;
+             bottom: -80px;
+             right: 20px;
+             transition: all 0.5s;
+             background: #4CAF50;
+             color: white;
+             padding: 16px;
+             border-radius: 8px;
+             }
+       .toast-visible {
+             bottom: 20px;
+             }
     </style>
+    <script>
+     setTimeout(() => {
+       document.getElementById('toast').classList.add('toast-visible')
+            }, 2000)
+
+     setTimeout(() => {
+       document.getElementById('toast').classList.remove('toast-visible')
+           }, 15000)
+</script>
 </head>
 <body>
     <header class="bg-[#111] p-4 flex justify-between items-center border-b border-[#333]">
@@ -224,6 +246,7 @@
                 </button>
             </div>
         </div>
+        <div id="toast" class="toast-hidden">观影提醒：视频资源来自网络采集，若观影时出现任何广告请不要相信！！！10秒后关闭</div>
 
         <!-- 添加自动播放开关和排序按钮 -->
         <div class="player-container">
