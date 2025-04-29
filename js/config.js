@@ -23,68 +23,17 @@ const SITE_CONFIG = {
 const API_SITES = {
     bfzy: {
         api: 'https://bfzyapi.com',
-        name: '暴风(微广勿信)',
+        name: '极速',
         filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY'
     },
-    heimuer: {
-        api: 'https://mycj-json.heimuer.xyz',
-        name: '黑梨(有广勿信)',
-        detail: 'https://heimuer.tv',
-        filterAdRule: '#EXT-X-DISCONTINUITY\\n#EXTINF:\\d+\\.\\d+,\\n.*?\\n#EXT-X-DISCONTINUITY'
-    },
-    ffzy: {
-        api: 'http://ffzy5.tv',
-        name: '非凡',
-        detail: 'http://ffzy5.tv',
-        filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY'
-    },
-    tyyszy: {
-        api: 'https://tyyszy.com',
-        name: '天涯资源',
-    },
-    ckzy: {
-        api: 'https://www.ckzy1.com',
-        name: 'CK资源',
-        adult: true
-    },
     dbzy: {
-        api: 'https://tyyszy.com',
-        name: '豆瓣(微广勿信)'
-    },
-    jkun: {
-        api: 'https://jkunzyapi.com',
-        name: 'jkun资源',
-        adult: true
+        api: 'https://bfzyapi.com',
+        name: '豆瓣',
+        filterAdRule: '#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY'
     },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
         name: '百万资源',
-        adult: true
-    },
-    souav: {
-        api: 'https://api.souavzy.vip',
-        name: 'souav资源',
-        adult: true
-    },
-    r155: {
-        api: 'https://155api.com',
-        name: '155资源',
-        adult: true
-    },
-    lsb: {
-        api: 'https://apilsbzy1.com',
-        name: 'lsb资源',
-        adult: true
-    },
-    huangcang: {
-        api: 'https://hsckzy.vip',
-        name: '黄色仓库',
-        adult: true,
-        detail: 'https://hsckzy.vip'
-    },
-    yutu: {
-        api: 'https://yutuzy10.com',
-        name: '玉兔资源',
         adult: true
     }
     // 您可以按需添加更多源
