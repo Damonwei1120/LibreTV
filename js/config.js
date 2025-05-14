@@ -35,6 +35,15 @@ const API_SITES = {
         api: 'https://cj.rycjapi.com',
         name: '如意',
     },
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com',
+        name: '天天',
+        detail: 'http://caiji.dyttzyapi.com',
+    },
+    wwzy: {
+        api: 'https://wwzy.tv',
+        name: '短剧'
+    },
     zuid: {
         api: 'https://api.zuidapi.com',
         name: '最大'
